@@ -7,13 +7,13 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+<!--  <meta property="og:title" content="">-->
+<!--  <meta property="og:type" content="">-->
+<!--  <meta property="og:url" content="">-->
+<!--  <meta property="og:image" content="">-->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+<!--  <link rel="manifest" href="site.webmanifest">-->
+<!--  <link rel="apple-touch-icon" href="icon.png">-->
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -26,9 +26,9 @@
 
 <header class="header">
   <div class="container">
-    <h1>Якщо Вашу дитину цікавлять роботи та як вони створюються, то Вам сюди: </h1>
+    <h1>Якщо Вашу дитину цікавлять роботи, то Вам сюди: </h1>
     <img class="top_img" src="img/misto_n.jpg"
-    width="900"
+    width=100%
     >
     <h2><small>AndSmallHeader</small></h2>
   </div>
@@ -47,27 +47,47 @@
 </nav>
 
 <!--page1-->
-<div class="progr">
+<div class="page1 page" >
 
   <h2 > <a name="1">Роботехніка для дітей (7-15)</a> </h2>
 
 <img src="img/slon_o.jpg">
   <p>Робимо роботів  з конструкторів Lego та вчимо їх рухатись</p>
-
+  <button class="buttonP" type="button"><a href="#2">Next Page</a></button>
 </div>
-<div>
+
+
+<!--page2-->
+
+<div class="page2 page">
   <h2><a name="2">3d моделювання</a></h2>
-  <img src="img/3d_1.png" width="300"> <img src="img/d3_4.jpg" width="300">
   <p>Створюємо тривимірні моделі та друкуємо</p>
-  <p> <img src="img/3d_7.png" width="300"> <img src="img/3d_8.png" width="300"></p>
 
+  <div class = "slider">
+    <ul>
+  <li> <img src="img/3d_1.png" width="300"> </li>
+      <li><img src="img/d3_4.jpg" width="300"></li>
+      <li><img src="img/3d_7.png" width="300"></li>
+      <li> <img src="img/3d_8.png" width="300"></li>
+    </ul>
+    <button class="button" type="button">Click Me!</button>
+  </div>
+  <button class="buttonP" type="button"><a href="#3">Next Page</button>
 </div>
-<div>
-  Програмування
 
+<!--page3-->
+
+<div class="page3 page" >
+  <h2><a name="3">Програмування</a></h2>
+
+  <button class="buttonP" type="button"><a href="#4">Next Page</button>
 </div>
-<div>
-  <h2><a name="3">Курси комп’ютерної грамотності для дорослих(18 +)</a></h2>
+
+
+
+<!--page4-->
+<div class="page4 page" >
+  <h2><a name="4">Курси комп’ютерної грамотності для дорослих(18 +)</a></h2>
   <img src="img/v3_2.png" width="400"> <img src="img/v_3.jpg" width="400">
   <p>Вчимо дорослих:</p>
   <ul>
@@ -77,18 +97,25 @@
     <li><a >Інтернет покупки</a></li>
     <li><a >Платежі через інтернет</a></li>
   </ul>
+  <button class="buttonP" type="button"><a href="#5">Next Page</button>
+</div>
 
 
+<!--page5-->
+<div class="page5 page" >
+  <h2><a name="5">Курси смарт-освіти для вчителів</a></h2>
+  <button class="buttonP" type="button"><a href="#6">Next Page</button>
 </div>
-<div>
-  Курси смарт-освіти для вчителів
 
+<!--page6-->
+<div class="page6 page">
+  <h2><a name="6">Участь в фестивалях з роботехніки</a></h2>
+  <button class="buttonP" type="button"><a href="#7">Next Page</button>
 </div>
 <div>
-Участь в фестивалях з роботехніки
-</div>
-<div>
-Тематичні майстеркласи з роботехніки
+  <h2><a name="7">Тематичні майстеркласи з роботехніки</a></h2>
+
+
 </div>
 
 <div>
@@ -107,8 +134,8 @@
 <!-- Pidval -->
 <footer class="footer">
   <div class="container">
-    <img src="img/lable_m.png"
-    width="100"
+    <img class="footimg" src="img/lable_m.png"
+
     >
     <p>Copyright GV</p>
     <p>gagarinvov@gmail.com</p>
